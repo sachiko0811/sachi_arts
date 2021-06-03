@@ -7,20 +7,19 @@ const Footer = () => {
     <Box backgroundColor="#DB352E">
       <Grid templateColumns={["repeat(3, 1fr)", "repeat(3, 1fr)"]} color="white" fontWeight="bold">
         <Image src="" />
-        {/* <VStack p="2rem">
-          <Link to="/">The Green Blast</Link>
-          <Link to="/">The Blue Berry</Link>
-          <Link to="/">The Yellow Mellow</Link>
+        <VStack p="2rem">
+          <Link to="/products/blue-nemo">Nemophila</Link>
+          <Link to="/products/gerbera-daisy">Gerbera</Link>
+          <Link to="/products/tokyo-night">The City Night</Link>
         </VStack>
         <VStack p="2rem">
           <Link to="/">About Us</Link>
           <Link to="/">Learn More</Link>
-          <Link to="/">Sustainability</Link>
-        </VStack> */}
+        </VStack>
       </Grid>
       <Box>
         <Text textAlign="center" color="white" w="100%" borderTop="1px solid white" p="1rem">
-          @ Copyright www.workingwithshopify.com
+        ©︎ Copyright www.workingwithshopify.com
         </Text>
       </Box>
     </Box>

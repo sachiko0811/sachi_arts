@@ -4,7 +4,7 @@ import { Box, Button, Text, Image, Center } from '@chakra-ui/react';
 const Hero = () => {
   return (
     <Box backgroundColor="#DB352E" w="100%" position="relative" h="70vh">
-      <Image src="" 
+      <Image src="https://lh3.googleusercontent.com/proxy/YBEC683s6t-dJVaStd44virJM9e56HLDsKogdNshICpPuf9BlJMneZxd7JuRbnCMCjVpzOhtexvB7HA-Q-oJJiRlSK-BoSRRvNwRY4Fp3tT3Ftf0TWvS46h8tVB414mkktQ-0xh8DHlnRqjd7ckMi3dxeXfdjH4" 
       h="100%" m="auto" objectFit="contain" objectPosition={["top", "center"]}
       />
       <Text
@@ -19,7 +19,7 @@ const Hero = () => {
       >
         Sachi Arts
       </Text>
-      <Center>
+      {/* <Center>
         <Button
           w="10rem"
           backgroundColor="#111514"
@@ -30,7 +30,7 @@ const Hero = () => {
         >
           Shop Now
         </Button>
-      </Center>
+      </Center> */}
     </Box>
   )
 }
