@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sachiko0811/sachi_arts/static/css/main.630666df.chunk.css",
+    "main.js": "/sachiko0811/sachi_arts/static/js/main.ca4589dd.chunk.js",
+    "main.js.map": "/sachiko0811/sachi_arts/static/js/main.ca4589dd.chunk.js.map",
+    "runtime-main.js": "/sachiko0811/sachi_arts/static/js/runtime-main.43acf506.js",
+    "runtime-main.js.map": "/sachiko0811/sachi_arts/static/js/runtime-main.43acf506.js.map",
+    "static/js/2.468ad756.chunk.js": "/sachiko0811/sachi_arts/static/js/2.468ad756.chunk.js",
+    "static/js/2.468ad756.chunk.js.map": "/sachiko0811/sachi_arts/static/js/2.468ad756.chunk.js.map",
+    "static/js/3.84785efa.chunk.js": "/sachiko0811/sachi_arts/static/js/3.84785efa.chunk.js",
+    "static/js/3.84785efa.chunk.js.map": "/sachiko0811/sachi_arts/static/js/3.84785efa.chunk.js.map",
+    "index.html": "/sachiko0811/sachi_arts/index.html",
+    "static/css/main.630666df.chunk.css.map": "/sachiko0811/sachi_arts/static/css/main.630666df.chunk.css.map",
+    "static/js/2.468ad756.chunk.js.LICENSE.txt": "/sachiko0811/sachi_arts/static/js/2.468ad756.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43acf506.js",
+    "static/js/2.468ad756.chunk.js",
+    "static/css/main.630666df.chunk.css",
+    "static/js/main.ca4589dd.chunk.js"
+  ]
+}
