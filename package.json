@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/sachiko0811/sachi_arts",
   "name": "sachi-arts",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +44,7 @@
   "devDependencies": {
     "@chakra-ui/icons": "^1.0.13",
     "@chakra-ui/react": "^1.6.1",
+    "gh-pages": "^3.2.0",
     "react-icons": "^1.0.0",
     "react-router-dom": "^5.2.0",
     "shopify-buy": "^2.11.0"
