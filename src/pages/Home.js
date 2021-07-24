@@ -52,14 +52,16 @@ import ImageWithText from '../components/ImageWithText';
       />
       <ImageWithText  
         image="https://cdn.shopify.com/s/files/1/0572/2085/8005/files/blue-nemo.jpg?v=1622670036" 
-        heading="Heading" 
+        heading="Nemophila" 
+        link="/products/blue-nemo"
         text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       />
 
       <ImageWithText 
         reverse 
         image="https://cdn.shopify.com/s/files/1/0572/2085/8005/files/tokyo-night.jpg?v=1622670167" 
-        heading="Second Heading" 
+        heading="The city night" 
+        link="/products/tokyo-night"
         text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       />
     </Box>

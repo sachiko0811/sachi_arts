@@ -1,7 +1,8 @@
 import React from 'react';
 import { Box, Flex, Button, Text, Image, Heading } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
-const ImageWithText = ({ reverse, image, heading, text }) => {
+const ImageWithText = ({ reverse, image, heading, text, link }) => {
 
   const reverseSection = reverse ? 'row-reverse' : 'row';
 
@@ -16,14 +17,16 @@ const ImageWithText = ({ reverse, image, heading, text }) => {
           <Text p="2rem">
             {text && text}
           </Text>
-          <Button
-            w="10rem"
-            backgroundColor="#111514"
-            color="white"
-            _hover={{ opacity: '70%' }}
-          >
-            Buy Now
-          </Button>
+          <Link to={link}>
+            <Button
+              w="10rem"
+              backgroundColor="#111514"
+              color="white"
+              _hover={{ opacity: '70%' }}
+            >
+              Buy Now
+            </Button>
+          </Link>
         </Flex>
       </Flex>
     </Box>
