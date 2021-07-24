@@ -36,10 +36,10 @@ import ImageWithText from '../components/ImageWithText';
             >
               <Box _hover={{ opacity: '80%' }} textAlign="center" position="relative">
                 <Image src={product.images[0].src} />
-                <Text position="absolute" bottom="15%" w="100%" fontWeight="bold">
+                <Text position="absolute" bottom="15%" w="100%" fontWeight="bold" color="whiteAlpha.800">
                   {product.title}
                 </Text>
-                <Text position="absolute" bottom="5%" w="100%" color="gray.500">
+                <Text position="absolute" bottom="5%" w="100%" color="whiteAlpha.700">
                   ${product.variants[0].price}
                 </Text>
               </Box>
