@@ -31,7 +31,7 @@ const NavMenu = () => {
             <DrawerHeader>Menu</DrawerHeader>
             <DrawerBody>
               <VStack p="2rem">
-                <Link to="/">About Us</Link>
+                <Link to="/">Home</Link>
                 <Link to="/products/blue-nemo">Nemophila</Link>
                 <Link to="/products/gerbera-daisy">Gerbera</Link>
                 <Link to="/products/tokyo-night">The city night</Link>
