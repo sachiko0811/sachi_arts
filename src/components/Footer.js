@@ -13,8 +13,7 @@ const Footer = () => {
           <Link to="/products/tokyo-night">The City Night</Link>
         </VStack>
         <VStack p="2rem">
-          <Link to="/">About Us</Link>
-          <Link to="/">Learn More</Link>
+          <Link to="/">Home</Link>
         </VStack>
       </Grid>
       <Box>
